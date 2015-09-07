@@ -10,3 +10,101 @@ body {
 #profilepic {
     border-radius:50%;
 }
+
+#profilepic {
+    position: relative;
+    -webkit-animation: mymove 3s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 3s infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: -100px;}
+}
+
+#padawan {
+    position:relative;
+    top:-145px;
+    z-index:-100;
+    -webkit-animation: mymove2 3s infinite; /* Chrome, Safari, Opera */
+    animation: mymove2 3s infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes mymove2 {
+    from {left: 0px;}
+    to {left: +100px;}
+}
+
+.p1 {
+    position:relative;
+    top:-30px;
+}
+
+
+/*.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: stretch;
+}
+		
+ 
+.flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+		
+ .flex-item-1 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 98%;
+    
+}
+	
+ .flex-item-2 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+	
+ .flex-item-3 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+	
+ .flex-item-4 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+	
+ .flex-item-5 {
+    width: <property unused>
+    height: <property unused>
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 98%;
+    
+
+}
+	*/
