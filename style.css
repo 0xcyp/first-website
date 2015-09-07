@@ -1,12 +1,12 @@
 body {
     font-family: Product Sans;
     text-align:center;
-    background-image: url(http://placekitten.com/g/1000/1001);
+    background-image: url(http://orig05.deviantart.net/ae04/f/2011/019/9/9/futuristic_city_3_test_by_rich35211-d37li6m.jpg);
     background-size:cover;
     background-position:center;
     color:white;
 }
 
-#profile-pic {
+#profilepic {
     border-radius:50%;
 }
